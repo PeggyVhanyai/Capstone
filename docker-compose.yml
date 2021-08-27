@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+      docker-node-service:
+       container_name: E-Shopping-master
+       build: .
+       ports: 
+           - "3200:3200"
